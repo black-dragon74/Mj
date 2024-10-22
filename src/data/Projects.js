@@ -6,136 +6,295 @@
 //image : image related to project
 //link : link to the video
 //category
-//Job 
+//job 
 
 const projects = [
     {
-        "id" : 1,
+        "title": "Hindustan Times Celebrates 100 Years",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/rqbpR5O9gD8?si=UQJTI6rGHAkiRlL5",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Dabur India | World Heart Day",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/TbyZoM7GsPk?si=a0aX9ySthJlYtLD3",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Samsung Galaxy A35 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/a4_i1DR3OPI?si=4WUi2Gdhbr2TylRX",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Samsung Galaxy A55 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/hcow3JX8Ef0?si=UrhnKSTWzrpccJeY",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Visit Dubai",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/-_-myAdvDaY?si=KOWulofrN070hxgv",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Bikano",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/kaFwT4y-WUQ?si=Ycxbj2x5rbmDE0na",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Mastercard",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/-6CidlEhYfM?si=wi3VMwM90DvhE7Jk",
+        "category": "Commercial",
+        "job": "2nd Unit Director of Photography"
+    },
+    {
+        "title": "Samsung Galaxy Z Flip 3 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/aFIPoslKo1g",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Samsung Galaxy Z Flip 3 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/Dbmbvuq-awY",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Samsung Galaxy Z Flip 3 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/QKTNRXvN_Yg",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Samsung Galaxy Z Fold 3 5G",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/U259LvoQtew",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
         "title" : "Samsung S7 FE tablet",
         "image": require("../assets/images/samsung.jpg"),
-        "link": "https://youtu.be/50SBRBpGsoA",
+        "link": "https://www.youtube.com/embed/50SBRBpGsoA",
         "category": "Commercial",
-        "Job": "2nd Unit Director of Photography & Assistant Cinematographer",
+        "job": "Director of Photography",
     },
     {
-        "id": 2,
+        "title" : "MOY Jewellery Brand",
+        "image": require("../assets/images/samsung.jpg"),
+        "link": "https://www.youtube.com/embed/fLwiqAgEGQ4",
+        "category": "Commercial",
+        "job": "Director of Photography",
+    },
+    {
+        "title" : "MOY Jewellery Brand",
+        "image": require("../assets/images/samsung.jpg"),
+        "link": "https://www.youtube.com/embed/2Q2CaPLHCqM",
+        "category": "Commercial",
+        "job": "Director of Photography",
+    },
+    {
         "title": "Hyatt Regency",
         "image": require("../assets/images/hyatt.png"),
-        "link": "https://youtu.be/l20jQEAnKhY",
+        "link": "https://www.youtube.com/embed/l20jQEAnKhY",
         "category": "Commercial",
-        "Job": "Director of Photography",
+        "job": "Director of Photography",
     },
     {
-        "id": 3,
-        "title": "MG Hector",
+        "title": "Tidy Sleep Baby Nest | Tidy Sleep",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/uSyNijZgV9s?si=Z640cN3VdV52Uye-",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Tidy Sleep Cotton Muslin Swaddle | Tidy Sleep",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/m8Nvh3grbIk?si=Oh5Q0IbuynjcTxCg",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "Tidy Sleep Baby Gadda Set | Tidy Sleep",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/yMk2xCMwgYs?si=nRemKCpu38K-Y6Gv",
+        "category": "Commercial",
+        "job": "Director of Photography"
+    },
+    {
+        "title": "DECIM.L | Zakir Khan",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/kwGQpgeKrjI",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "DECIM.L | Bhuvan Bam",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/I_Rf1YJDlkA",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "DECIM.L | Prafull MBA Chaiwala",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/NisrrfQM01w",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "DECIM.L | Ranveer Allahbadia",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/aUrqjHOjiS4",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "DECIM.L | Suhani Shah",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/v1pfpQ7-8vY",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "DECIM.L | Vicky Malhotra",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/IeaQW0U-m_A",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "DECIM.L | Raj Shamani",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/Z3CtgtBk_eI",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "Blanko Perfumes",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/Pjttso4TAns?si=tc3NV599TLQPT1yS",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "Blanko Perfumes",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/4-2PpiMDW0Q?si=pROpboXkOEBhFF2V",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "Blanko Perfumes",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/syYWqpL1j_E?si=a9H9kjnyw7WnDGpP",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "Blanko Perfumes",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/q-958qAxNyE?si=ghXYRr33LxYQei4m",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title" : "Zupee Gaming App",
+        "image": require("../assets/images/samsung.jpg"),
+        "link": "https://www.youtube.com/embed/BX_WM_aFupI",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer",
+    },
+    {
+        "title" : "Zupee Gaming App",
+        "image": require("../assets/images/samsung.jpg"),
+        "link": "https://www.youtube.com/embed/cyO3fyxIcck",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer",
+    },
+    {
+        "title": "13Karat",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/13tPyS4AuLQ?si=nQvq9W3CuY0DIyxw",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "13Karat",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/a7jfzEvEdkA?si=Jq0RS9ylnE9w2h93",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "13Karat",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/zIV45pjtEpY?si=cp30t3Dy1JOwQ88W",
+        "category": "Commercial",
+        "job": "Assistant Cinematographer"
+    },
+    {
+        "title": "MG Hector Plus",
         "image": require("../assets/images/mghector.png"),
-        "link": "https://www.instagram.com/p/CHc73kXFZNO/?igshid=zulfyhw2msxh",
+        "link": "https://www.youtube.com/embed/tyuScy2ysj8",
         "category": "Commercial",
-        "Job": "Assistant Cinematographer",
+        "job": "Assistant Cinematographer",
     },
     {
-        "id": 4,
         "title": "MG Gloster",
         "image": require("../assets/images/mggloster.png"),
-        "link": "https://www.instagram.com/p/CHfUtI0lOQg/?igshid=1i48sw2xvd6mg",
+        "link": "https://www.youtube.com/embed/Xap_4oWvmuM",
         "category": "Commercial",
-        "Job": "Assistant Cinematographer",
+        "job": "Assistant Cinematographer",
     },
     {
-        "id": 5,
         "title": "MG Hector 2",
         "image": require("../assets/images/mghector3.png"),
-        "link": "https://www.instagram.com/p/CHh3p6Kl4eY/?igshid=fzyrzgu8ioqi",
+        "link": "https://www.youtube.com/embed/OHX-idcKt0Q",
         "category": "Commercial",
-        "Job": "Assistant Cinematographer",
+        "job": "Assistant Cinematographer",
     },
     {
-        "id": 6,
         "title": "MG ZS EV",
         "image": require("../assets/images/mgzsev.png"),
-        "link": "https://www.instagram.com/p/CHj0ptClxlb/?igshid=s1fvwsjto0yq",
+        "link": "https://www.youtube.com/embed/2EDgNnk2TT0",
         "category": "Commercial",
-        "Job": "Assistant Cinematographer",
+        "job": "Assistant Cinematographer",
     },
     {
-        "id": 7,
-        "title": "B Roll 1 (DUBAI) ",
-        "image": require("../assets/images/broll1.png"),
-        "link": "https://sarthakgogna5.wixsite.com/website/work?wix-vod-video-id=f0255ada56264333a915460fbfb3afa6&wix-vod-comp-id=comp-jiwy9miy",
-        "category": "Web",
-        "Job": "Director of Photography",
-    },
-    {
-        "id": 8,
-        "title": "B Roll 2 (DUBAI) ",
-        "image": require("../assets/images/broll2.png"),
-        "link": "https://sarthakgogna5.wixsite.com/website/work?wix-vod-video-id=f0255ada56264333a915460fbfb3afa6&wix-vod-comp-id=comp-jiwy9miy",
-        "category": "Web",
-        "Job": "Director of Photography",
-    },
-    {
-        "id": 9,
-        "title": "B Roll 3 (DUBAI) ",
-        "image": require("../assets/images/broll3.png"),
-        "link": "https://sarthakgogna5.wixsite.com/website/work?wix-vod-video-id=f0255ada56264333a915460fbfb3afa6&wix-vod-comp-id=comp-jiwy9miy",
-        "category": "Web",
-        "Job": "Director of Photography",
-    },
-    {
-        "id": 10,
-        "title": "Littleens Campaign Video (Boys) ",
-        "image": require("../assets/images/littleens1.png"),
-        "link": "https://sarthakgogna5.wixsite.com/website/work?wix-vod-video-id=f0255ada56264333a915460fbfb3afa6&wix-vod-comp-id=comp-jiwy9miy",
+        "title": "Introducing HealthifySnap | HealthifyMe",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/MZbYk_V9m7s?si=yNrP_DgnLhYCgntB",
         "category": "Commercial",
-        "Job": "Director of Photography",
+        "job": "Assistant Cinematographer"
     },
     {
-        "id": 11,
-        "title": "Littleens",
-        "image": require("../assets/images/littleens2.png"),
-        "link": "https://sarthakgogna5.wixsite.com/website/work?wix-vod-video-id=f0255ada56264333a915460fbfb3afa6&wix-vod-comp-id=comp-jiwy9miy",
+        "title": "Introducing HealthifySnap | HealthifyMe",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/xTDEkwzkuFw?si=LEZXrOO3DkwdTg4D",
         "category": "Commercial",
-        "Job": "Director of Photography",
+        "job": "Assistant Cinematographer"
     },
     {
-        "id": 12,
-        "title": "Littleens Campaign Video (Girls) ",
-        "image": require("../assets/images/littleens3.png"),
-        "link": "https://sarthakgogna5.wixsite.com/website/work?wix-vod-video-id=f0255ada56264333a915460fbfb3afa6&wix-vod-comp-id=comp-jiwy9miy",
+        "title": "Introducing HealthifySnap | HealthifyMe",
+        "image": require("../assets/images/hyatt.png"),
+        "link": "https://www.youtube.com/embed/VOEHE_PouYE?si=gPZmtlTj5scs2yMk",
         "category": "Commercial",
-        "Job": "Director of Photography",
-    },
-    {
-        "id": 13,
-        "title": "Littleens",
-        "image": require("../assets/images/littleens4.png"),
-        "link": "https://sarthakgogna5.wixsite.com/website/work?wix-vod-video-id=f0255ada56264333a915460fbfb3afa6&wix-vod-comp-id=comp-jiwy9miy",
-        "category": "Commercial",
-        "Job": "Director of Photography",
-    },
-    {
-        "id": 14,
-        "title": "Peppy Prints",
-        "image": require("../assets/images/pp1.png"),
-        "link": "https://sarthakgogna5.wixsite.com/website/work?wix-vod-video-id=f0255ada56264333a915460fbfb3afa6&wix-vod-comp-id=comp-jiwy9miy",
-        "category": "Commercial",
-        "Job": "Director of Photography",
-    },
-    {
-        "id": 15,
-        "title": "Jab Hum Mile - Part 1 - Hunny Sharma",
-        "image": require("../assets/images/hs1.jpg"),
-        "link": "https://youtu.be/uFN71rziKdc",
-        "category": "Web",
-        "Job": "Director of Photography",
-    },
-    {
-        "id": 16,
-        "title": "Jab Hum Mile - Part 2 - Hunny Sharma",
-        "image": require("../assets/images/hs2.jpg"),
-        "link": "https://youtu.be/hyRkD0KHrLk",
-        "category": "Web",
-        "Job": "Director of Photography",
+        "job": "Assistant Cinematographer"
     }
 ]
 
